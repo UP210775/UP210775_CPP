@@ -6,7 +6,8 @@
 ```
 int main(){
 
-    cout<<"Hola mundo";
+
+    cout<<"\nHola mundos"<<endl;
 
     getchar();
     return 0;
@@ -18,12 +19,11 @@ int main(){
 
 - - -
 ```
-#include <iostream>
-using namespace std;
 
 int main(){
 
-    cout<<"Par o impar";
+
+    cout<<"\n Par o Impar"<<endl;
 
     getchar();
     return 0;
@@ -36,26 +36,26 @@ int main(){
 - - -
 ```
 #include <iostream>
-
 #include <stdio.h>
 using namespace std;
 
 int main(){
-    
-    int entero = 2147483647;
-    float flotante = 3.1416e4;
-    double grande = 2.565465654654;
+
+    int entero = 256415642;
+    float flotante = 3.589;
+    double grande = 2.45489656465;
     char caracter = '@';
 
-    cout<<"Este programa muestra los tipos de datos: \n";
-    cout<<"El numero entero es: "<<entero<<endl;
-    cout<<"El tamaño del entero: "<<sizeof(entero)<<" bytes"<<endl;
-    cout<<"El caracter char es: "<<caracter<<endl;
-    cout<<"El tamaño del char es: "<<sizeof(caracter)<<endl;
+    cout <<"Este programa muestra los tipos de datos. \n";
+    cout <<"Este es un dato de tipo entero:" <<entero<<endl;
+    cout <<"Este es un dato de tipo flotante:" <<flotante<<endl;
+    cout <<"Este es un dato de tipo grande:" <<grande<<endl;
+    cout <<"Este es un dato de tipo caracter:" <<caracter<<endl;
 
 
     getchar();
     return 0;
+
 }
 ```
 - - - 
@@ -70,38 +70,29 @@ using namespace std;
 int main()
 {
 
-    int n = 10, s = 0, p = 0, imp = 0, pc = 0, impc = 0;
+    int n = 10;
+    int suma = 0;
+    int pa = 0, im = 0;
 
     for (int i = 1; i <= n; i++)
     {
-        s += i;
         if (i % 2 == 0)
         {
-            p += i;
-            pc += 1;
-        }
-        else
-        {
-            imp += i;
-            impc += 1;
-        }
-    }
 
-    cout << endl
-         << "La suma es: " << s;
-    cout << endl
-         << "La suma de los impares es: " << imp;
-    cout << endl
-         << "La suma de los pares es: " << p;
-    cout << endl
-         << "La suma de pares e impares es: " << imp + p;
-    cout << endl
-         << "La cantidad de numeros impares es: " << impc;
-    cout << endl
-         << "La cantidad de numeros pares es: " << pc;
-    getchar();
+       pa= pa+i;
+        }
+        else{
+            im=im+i;
+        }
+    
+    }
+    suma= pa+im;
+   printf("\n\nLa suma de los Numeros impares es %d ", im);
+     printf("\n\nLa suma de los Numeros pares es %d ", pa);
+       printf("\n\nLa suma de los Numeros impares y Pares %d ", suma); 
     return 0;
 }
+
 
 ```
 - - - 
@@ -112,47 +103,42 @@ int main()
 ```
 #include <iostream>
 using namespace std;
-
 int main()
 {
+    int E;
+    cout << "introduce tu edad:" << endl;
+    cin >> E;
 
-    int edad;
 
-    cout << endl
-         << "Ingrese una edad: ";
-    cin >> edad;
-
-    if (edad > 0 && edad <= 150)
+    if (E >= 1 && E <= 150)
     {
-
-        if (edad <= 30)
+        if (E >= 1 && E <= 30)
         {
-            cout << endl
-                 << "Primera edad.";
+            cout << "primera edad";
         }
-        else if (edad > 30 && edad < 61)
+        else 
         {
-            cout << endl
-                 << "Segunda edad.";
-        }
-        else if (edad > 60 && edad < 91)
-        {
-            cout << endl
-                 << "Tercera edad.";
-        }
-        else if (edad > 90 && edad <= 150)
-        {
-            cout << endl
-                 << "Ya robas oxigeno.";
+            if (E <= 60)
+            {   
+                cout << "segunda edad";
+            }
+            else
+            {
+                if (E <= 90)
+                {
+                    cout << "Tercera edad";
+                }
+                else
+                {
+                    cout << "Horas extras";
+                }
+            }
         }
     }
     else
     {
-        cout << endl
-             << "Esa edad no existe.";
+        cout<<"hijooole tas mal";
     }
-
-    getchar();
     return 0;
 }
 ```
