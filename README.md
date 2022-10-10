@@ -1,5 +1,6 @@
-# UP210775_CPP
+# Universidad Politecnica de Aguascalientes 
+### ingenieria en sistemas computacionales 
+## Joshua Natanael Martinez Alonso / UP210775
 
-## Joshua Martinez
+![m](U1/Imagenes/UPA.png)
 
-![m](U1/Imagenes/fondo.jfif)
