@@ -14,6 +14,7 @@
 >[<li>03_Tipos_Datos</li>](https://github.com/UP210775/UP210775_CPP/blob/main/U1/03_Tipos_Datos.cpp)
 >[<li>04_ciclos</li>](https://github.com/UP210775/UP210775_CPP/blob/main/U1/04_ciclos.cpp)
 >[<li>05_Edades</li>](https://github.com/UP210775/UP210775_CPP/blob/main/U1/README.md)
+>[<li>Entrar a la U1</li>](https://github.com/UP210775/UP210775_CPP/tree/main/U1)
 
 - - - 
 # U2
@@ -30,3 +31,4 @@
 >[<li>08_Tablas</li>](https://github.com/UP210775/UP210775_CPP/blob/main/U2/08_Tablas.cpp)
 >[<li>09_Puntuacion</li>](https://github.com/UP210775/UP210775_CPP/blob/main/U2/09_puntuacion.cpp)
 >[<li>10_Abecedario</li>](https://github.com/UP210775/UP210775_CPP/blob/main/U2/10_Abecedario.CPP)
+>[<li>Entrar a la U2</li>](https://github.com/UP210775/UP210775_CPP/tree/main/U2)
