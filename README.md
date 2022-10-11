@@ -19,6 +19,7 @@
 # U2
 - - -
 
+>[<li>Trabajos</li>](https://github.com/UP210775/UP210775_CPP/blob/main/U2/01_Rentas.cpp)
 >[<li>01_Rentas</li>](https://github.com/UP210775/UP210775_CPP/blob/main/U2/01_Rentas.cpp)
 >[<li>02_Rendimiento</li>](https://github.com/UP210775/UP210775_CPP/blob/main/U2/02_Rendimiento.cpp)
 >[<li>03_sala_juegos</li>](https://github.com/UP210775/UP210775_CPP/blob/main/U2/03_sala_juegos.cpp)
