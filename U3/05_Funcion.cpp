@@ -28,10 +28,7 @@ int main()
 {
     int n = 10;
     double x = double(5);
-    /*
-    x = sumatoria(n);
-    cout << "La sumatoria de " << n << " es : " << x << endl;
-    */
+   
     for (int i = 0; i <= 10; i++){
         x = ecu(i);
         cout << "x = " << i << " R ecuacion " << x << endl;

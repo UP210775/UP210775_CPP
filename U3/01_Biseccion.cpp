@@ -3,7 +3,7 @@
 using namespace std;
 
 double fnecu1(double x)
-{ // x^2 + 8x + 15
+{ 
 
     return (pow(x, 2) - 8 * x + 15);
 }
@@ -13,8 +13,8 @@ int main()
     double x2 = 4.5;
     double xnueva, r;
 
-    double es = .0001;         // Error estandar o absoluto
-    double er = abs(x2 - x1); // Error relativo
+    double es = .0001;         
+    double er = abs(x2 - x1); 
 
     int i = 1;
 
