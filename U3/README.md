@@ -49,6 +49,7 @@ int main()
 }
 
 ```
+![](README/BISECCION%20.png)
 - - - 
 
 ## Desglose 
@@ -110,6 +111,7 @@ void desgloce(int dinero){
 	cout<<"Uno: "<<uno<<endl;
 }
 ```
+![](README/Desglose%20.png)
 - - - 
 
 ## Desviacion  
@@ -171,6 +173,7 @@ void desv(float n){
 	cout<<"\nDesviación estándar poblacional: "<<dv;
 }
 ```
+![](README/Desviacion%20.png)
 - - - 
 
 ## Año bisiesto 
@@ -205,6 +208,7 @@ int esbisiesto(int year){
 	return bisiesto;
 }
 ```
+![](README/a%C3%B1o%20bisiesto%20.png)
 - - - 
 
 ## Funcion 
@@ -252,6 +256,7 @@ int main()
 
 
 ```
+![](README/Funcion%20.png)
 - - - 
 ## Ordenar Vector 
 
@@ -290,6 +295,7 @@ int main(){
 }
 
 ```
+![](README/ordenar%20vector.png)
 - - - 
 ## Recursividad 
 
@@ -325,6 +331,7 @@ int factorial(int n){
 	return n;
 }
 ```
+![](README/Recursividad%20.png)
 - - - 
 
 ## RFC 
@@ -400,6 +407,7 @@ void RFC(char nombre[], char apellido_paterno[], char apellido_materno[],char fe
 	
 }
 ```
+![](README/RFC.png)
 - - - 
 ## Romano 
 
@@ -474,4 +482,5 @@ void num_romano(int &n){
 	}
 }
 ```
+![](README/Romano%20.png)
 - - - 
